@@ -1,8 +1,7 @@
 package fundamentos
 
 fun main(args: Array<String>) {
+    val raio = 4.5
 
-    print("Primeiro")
-
-    println(" programa!");
+    print(raio*raio * Math.PI)
 }

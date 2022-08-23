@@ -1,8 +1,10 @@
 package fundamentos
 
 fun main(args: Array<String>) {
+    var a: Int = 10
+    var b = 2
 
-    print("Primeiro")
 
-    println(" programa!");
+    println(a+b)
+
 }
