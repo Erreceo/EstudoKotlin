@@ -2,7 +2,7 @@ package classes
 
 //Erro!! Kotlin: Val cannot be reassigned
 //fun porReferencia(velociadade:Int){
-//  velociadade++
+//  velocidade++
 //}
 
 data class Carro(var marca: String, var modelo: String, var velocidade: Int = 0)
