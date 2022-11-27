@@ -1,14 +1,16 @@
 package oo.heranca
 
-class Ferrari:Carro (velocidadeMaxima = 3500), Esportivo {
+class Ferrari : Carro(velocidadeMaxima = 3500), Esportivo {
     override var turbo: Boolean = false
         get() = field
         set(value) {
             field = value
         }
-override fun acelerar() {
-    super.alterarVelocidadeEm(if (turbo) 50 else 25)
-}
+
+    override fun acelerar() {
+        super.alterarVelocidadeEm(if (turbo) 50 else 25)
+    }
+
     override fun frear() {
         super.alterarVelocidadeEm(-25)
     }
